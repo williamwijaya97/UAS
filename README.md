@@ -1,9 +1,10 @@
 # UAS
 fungsi php pada tiap fitur dalam data peserta vaksinasi covid19
 
-fungsi login, dimana fitur login berfungsi untuk membatasi pengunjung untuk membuka informasi tertentu pada website. Pengunjung harus memiliki akun terlebih dahulu untuk mengakses informasi yang dibatasi, sehingga tidak sembarangan pengunjung dapat mengakses informasi tersebut.
+1. fungsi login, dimana fitur login berfungsi untuk membatasi pengunjung untuk membuka informasi tertentu pada website. 
+Pengunjung harus memiliki akun terlebih dahulu untuk mengakses informasi yang dibatasi, sehingga tidak sembarangan pengunjung dapat mengakses informasi tersebut.
 
-fungsi input data peserta vaksinasi covid19, berfungsi untuk mengisi data diri peserta, sehingga data tersebut dapat di pakai untuk vaksinasi, antara lain:
+2. fungsi input data peserta vaksinasi covid19, berfungsi untuk mengisi data diri peserta, sehingga data tersebut dapat di pakai untuk vaksinasi, antara lain:
 A. pilih provinsi, dimana pesrta harus memilih provinsi tempat tinggal.
 B. pilih kab/kota, dimana peserta harus memilih kab/kota tampat tinggal.
 C. pilih kecamatan, dimana peserta harus memilih kecamatan tempat tinggal.
