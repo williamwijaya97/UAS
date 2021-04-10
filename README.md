@@ -1,10 +1,10 @@
 # UAS
-+ fungsi php pada tiap fitur dalam data peserta vaksinasi covid19
-+
-+ 1. fungsi login, dimana fitur login berfungsi untuk membatasi pengunjung untuk membuka informasi tertentu pada website. 
-+ Pengunjung harus memiliki akun terlebih dahulu untuk mengakses informasi yang dibatasi, sehingga tidak sembarangan pengunjung dapat mengakses informasi tersebut.
-+
-+ 2. fungsi input data peserta vaksinasi covid19, berfungsi untuk mengisi data diri peserta, sehingga data tersebut dapat di pakai untuk vaksinasi, antara lain:
+fungsi php pada tiap fitur dalam data peserta vaksinasi covid19
+
+1. fungsi login, dimana fitur login berfungsi untuk membatasi pengunjung untuk membuka informasi tertentu pada website. 
+Pengunjung harus memiliki akun terlebih dahulu untuk mengakses informasi yang dibatasi, sehingga tidak sembarangan pengunjung dapat mengakses informasi tersebut.
+
+2. fungsi input data peserta vaksinasi covid19, berfungsi untuk mengisi data diri peserta, sehingga data tersebut dapat di pakai untuk vaksinasi, antara lain:
 + A. pilih provinsi, dimana pesrta harus memilih provinsi tempat tinggal.
 + B. pilih kab/kota, dimana peserta harus memilih kab/kota tampat tinggal.
 + C. pilih kecamatan, dimana peserta harus memilih kecamatan tempat tinggal.
@@ -22,9 +22,9 @@
 + O. menghapus data peserta, dimana data peserta yang bermasalah dapay dihapus dari database.
 + P. mencetak data peserta, dimana data peserta yang sudah di simpan dapat dicetak dengan format .pdf
 + Q. logout sistem, dimana peserta dapat keluar dari sistem ketika sudah selesai mengisi semua data yang diperlukan+ + .
-+
-+ Aplikasi Sederhana Daftar Peserta Vaksinasi Covid-19 terdiri dari :
-+
+
+Aplikasi Sederhana Daftar Peserta Vaksinasi Covid-19 terdiri dari :
+
 + form login
 + form input data
 + simpan data
@@ -32,9 +32,9 @@
 + edit data
 + hapus data
 + cetak data
-+
-+  KETERANGAN Fungsi yang ada di php
-+
+
+KETERANGAN Fungsi yang ada di php
+
 + mysqli_connect ( ) : Membuat koneksi ke database
 + mysqli_fetch_array ( ) : Mengambil hasil baris sebagai asosiatif , array numerik , atau keduanya dari database
 + mysqli_query ( ) : Melakukan query terhadap database
@@ -42,9 +42,9 @@
 + $_GET dan $_POST : Menampung data atau nilai dari sebuah form
 + $_SESSION : Menyimpan data atau nilai antar proses request
 + window.print() : Menampilkan halaman proses cetak pdf
-+
+
 +  WEBSITE application
-+
+
 + https://unsmitten-junctions.000webhostapp.com
 + username : 02111223
 + password : unpam
